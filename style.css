@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 	
+	margin:0;
+	padding:0;
+}
+
+body{
+	text-align:center;
+	margin:0px;
+	background:#ffffff;
+}
+
+#topo{
+    width: 100%;
+    height: 150px;
+}
+
+#logo{
+    width: 40%;
+    height: 100%;
+    float: left;
+    text-align: left;
+}
+
+    #logo img{
+        margin-left: 16%;
+        margin-top: 37px;
+    }
+
+.menu ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 7%;
+    margin-top: 100px;
+  }
+
+.menu li{
+    display: inline;
+    margin: 10px 0px 10px 10px;
+    font-family: 'Calibri', 'Courier New', Courier, monospace;
+    border: 1px solid #20427f;
+    padding: 5px;
+}
+
+    .menu li:hover{
+        background-color: #20427f;
+        text-decoration: none;
+    }
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+    .menu a:hover{
+        color:#ffffff; 
+    }
+
+#bemvindo{
+    width: 100%;
+    height: 280px;
+    background-image: url(bg.jpg);
+}
+
+#esquerda{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+    #esquerda p{
+        font-family: 'Calibri', 'Courier New', Courier, monospace;
+        color:#fff;
+        text-align: justify;
+        margin-left: 14%;
+        margin-top: 2%;
+        width: 60%;
+    }
+
+#direita{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+    #direita img{
+        margin-right: 14%;
+        margin-top: 30px;
+        float: right;
+    }
+
+#cards{
+    width: 100%;
+    height: 280px;
+}
+
+    #cards p{
+        font-family: 'Calibri', 'Courier New', Courier, monospace;
+        color:#000;
+        text-align: center;
+        font-weight: bold;
+        margin: 10px 0 50px 0
+    }
+
+    #cards a{
+        text-decoration: none;
+        color: #fff;
+        width: 80px;
+        height: 20px;
+        background-color: #4373c5;
+        padding: 5px 10px 5px 10px;
+    }
+
+        #cards a:hover{
+            text-decoration: underline;
+        }
+    
+#card1{
+    width: 19%;
+    height: 180px;
+    border: 2px solid #90acdb;
+    margin: 50px 7% 0 7%;
+    float: left;
+}
+
+#card2{
+    width: 20%;
+    height: 180px;
+    border: 2px solid #90acdb;
+    float: left;
+    margin: 50px 7% 0 7%;
+}
+
+#card3{
+    width: 19%;
+    height: 180px;
+    border: 2px solid #90acdb;
+    margin: 50px 7% 0 0;
+    float: right;
+}
+
+footer{
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 150px;
+    padding-top: 2%;
+}
+
+#info{
+    width: 50%;
+    float: left;
+}
+
+    #info p{
+        font-family: 'Calibri', 'Courier New', Courier, monospace;
+        color:#000;
+        text-align: justify;
+        margin-left: 14%;
+        width: 50%;
+    }
+
+#links{
+    width: 50%;
+    float: right;
+}
+
+    #links p{
+        font-family: 'Calibri', 'Courier New', Courier, monospace;
+        color:#000;
+        text-align: justify;
+        margin-right: 14%;
+        float: right;
+    }
+
+    #links a{
+        float: right;
+        margin-right: 14%;
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #links a:hover{
+        background-color: #d9d9d9;
+        color: #000;
+        text-decoration: none;
+    }

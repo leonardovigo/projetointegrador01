@@ -158,7 +158,23 @@ body{
     #ranking h1{
         font-family: 'Calibri', 'Courier New', Courier, monospace;
         color:#000;
-        margin:20px 0 0 0px;
+        margin:20px 0 20px 0px;
+    }
+
+#sobre p{
+    font-family: 'Calibri', 'Courier New', Courier, monospace;
+    color:#000;
+    font-size: 120%;
+    margin: 0 0 20px 0;
+    text-align: justify;
+    margin: 0 7% 0 7%;
+    padding: 10px 0 10px 0;
+}
+
+    #sobre h1{
+        font-family: 'Calibri', 'Courier New', Courier, monospace;
+        color:#000;
+        margin:20px 0 20px 0px;
     }
 
 footer{
@@ -181,6 +197,10 @@ footer{
         width: 50%;
     }
 
+    #info a{
+        color:#000;
+        text-decoration: none;
+    }
 #links{
     width: 50%;
     float: right;

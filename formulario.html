@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Interativo sobre Fraudes Bancárias</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div id="topo">
+        <div id="logo">
+            <a href="index.html"><img src="logo.png" border="0"/></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ranking.html">Ranking de Fraudes</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+                <li><a href="#">Relatório Estatístico</a></li>
+            </ul>
+        </nav>
+
+    </div><!--fecha topo -->
+
+    <div id="formulario">
+    <article>
+        <form name="meuForm" method="post" id="formulario">
+            <div class="box">
+                <h1>Formulário</h1>
+        
+                <label>
+                    <span>Nome Completo:</span>
+                    <input type="text" class="input_text" name="nome" id="name"/>
+        
+                </label>
+                
+                <label>
+                    <span>E-mail:</span>
+                    <input type="text" class="input_text" name="email" id="email"/>
+                </label>
+                <label>
+                    <span>Qual é a sua idade?</span>
+                    <input type="text" class="input_text" name="text" id="text2"/>
+            </label>
+        
+                <label>
+                    <span>Você já passou por algum tipo de fraude bancária?</span> 
+                
+                    <span><br><INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1">Fraude por PIX</span><br>
+                        
+                    <span><INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2">Fraude por Mensagem por Whatsapp<br></span>
+                    
+                    <span><INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op3">Fraude em Site da Internet</span> <br><br>
+                    <br><br>
+                </label>
+                
+                <label>
+                    <span>Você valida informações ao efetuar uma transação bancária?</span>
+                    <textarea class="message" name="feedback" id="feedback"></textarea> 
+            </label>
+        
+                <label>
+                    <span>Você já passou por uma fraude ou conhece alguém que já passou por uma fraude bancária diga nos qual foi o tipo?</span>
+                    <textarea class="message" name="feedback" id="feedback"></textarea>  
+                    <input type="button" class="button" value="Enviar" /><br><br><br>
+                </label>
+            </div>
+        </form>
+    </article>
+    </div>
+    
+    <footer>
+        <div id="info">
+            <p><b>Sobre nós</b></p>
+            <p>Somos estudantes de <br>Engenharia da Computação <br>da UNIVESP.</p>
+        </div>
+
+        <div id="links">
+            <p><b>Principais Links</b></p><br><br>
+            <a href="#">Link útil</a><br>
+            <a href="#">Link útil</a><br>
+            <a href="#">Link útil</a><br>
+            <a href="#">Link útil</a>
+        </div>
+        </footer>
+
+    </div><!--fecha rodape -->
+
+</body>
+</html>

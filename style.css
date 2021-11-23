@@ -12,313 +12,638 @@ body{
 	background:#ffffff;
 }
 
+@media only screen and (min-width: 1150px){
+    #topo{
+        width: 100%;
+        height: 150px;
+        border-bottom: 5px solid #23498a;
+        background-color: #d9d9d9;
+    }
+    #logo{
+        width: 40%;
+        height: 100%;
+        float: left;
+        text-align: left;
+    }
+    
+        #logo img{
+            margin-left: 16%;
+            margin-top: 27px;
+        }
 
-#topo{
-    width: 100%;
-    height: 150px;
-    border-bottom: 5px solid #23498a;
-    background-color: #d9d9d9;
-}
-
-#logo{
-    width: 40%;
-    height: 100%;
-    float: left;
-    text-align: left;
-}
-
-    #logo img{
-        margin-left: 16%;
-        margin-top: 27px;
+    #menu-sanfona{
+        display: none;
     }
 
-.menu ul {
-    list-style-type: none;
-    float: right;
-    margin-right: 7%;
-    margin-top: 100px;
-  }
-
-.menu li{
-    display: inline;
-    margin: 10px 0px 10px 10px;
-    font-family: 'Calibri', 'Courier New', Courier, monospace;
-    border: 1px solid #20427f;
-    padding: 5px;
-}
-
-    .menu li:hover{
-        background-color: #20427f;
-        text-decoration: none;
-    }
-
-.menu a{
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-weight: bolder;
-}
-
-    .menu a:hover{
-        color:#ffffff; 
-    }
-
-#bemvindo{
-    width: 100%;
-    height: 280px;
-    background-image: url(bg.jpg);
-}
-
-#esquerda{
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-
-    #esquerda p{
+    .menu ul {
+        list-style-type: none;
+        float: right;
+        margin-right: 7%;
+        margin-top: 100px;
+      }
+    
+    .menu li{
+        display: inline;
+        margin: 10px 0px 10px 10px;
         font-family: 'Calibri', 'Courier New', Courier, monospace;
-        color:#fff;
-        text-align: justify;
-        margin-left: 14%;
-        margin-top: 2%;
-        width: 60%;
+        border: 1px solid #20427f;
+        padding: 5px;
     }
-
-#direita{
-    width: 50%;
-    height: 100%;
-    float: right;
-}
-
-    #direita img{
-        margin-right: 14%;
-        margin-top: 30px;
+    
+        .menu li:hover{
+            background-color: #20427f;
+            text-decoration: none;
+        }
+    
+    .menu a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+        .menu a:hover{
+            color:#ffffff; 
+        }
+    
+    #bemvindo{
+        width: 100%;
+        height: 280px;
+        background-image: url(bg.jpg);
+    }
+    
+    #esquerda{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    
+        #esquerda p{
+            font-family: 'Calibri', 'Courier New', Courier, monospace;
+            color:#fff;
+            text-align: justify;
+            margin-left: 14%;
+            margin-top: 2%;
+            width: 60%;
+        }
+    
+    #direita{
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+    
+        #direita img{
+            margin-right: 14%;
+            margin-top: 30px;
+            float: right;
+        }
+    
+    #cards{
+        width: 100%;
+        height: 280px;
+    }
+    
+        #cards p{
+            font-family: 'Calibri', 'Courier New', Courier, monospace;
+            color:#000;
+            text-align: center;
+            font-weight: bold;
+            margin: 10px 0 50px 0;
+        }
+    
+        #cards a{
+            text-decoration: none;
+            color: #fff;
+            width: 80px;
+            height: 20px;
+            background-color: #4373c5;
+            border-radius: 7px;
+            padding: 5px 10px 5px 10px;
+            font-size: 120%;
+        }
+    
+            #cards a:hover{
+                background-color: #20427f;
+            }
+        
+    #card1{
+        width: 19%;
+        height: 180px;
+        border: 2px solid #90acdb;
+        margin: 50px 7% 0 7%;
+        float: left;
+    }
+    
+    #card2{
+        width: 20%;
+        height: 180px;
+        border: 2px solid #90acdb;
+        float: left;
+        margin: 50px 7% 0 7%;
+    }
+    
+    #card3{
+        width: 19%;
+        height: 180px;
+        border: 2px solid #90acdb;
+        margin: 50px 7% 0 0;
         float: right;
     }
 
-#cards{
-    width: 100%;
-    height: 280px;
-}
-
-    #cards p{
+    #ranking p{
         font-family: 'Calibri', 'Courier New', Courier, monospace;
         color:#000;
-        text-align: center;
-        font-weight: bold;
-        margin: 10px 0 50px 0;
-    }
-
-    #cards a{
-        text-decoration: none;
-        color: #fff;
-        width: 80px;
-        height: 20px;
-        background-color: #4373c5;
-        border-radius: 7px;
-        padding: 5px 10px 5px 10px;
         font-size: 120%;
+        margin: 0 7% 20px 7%;
+        text-align: justify;
     }
 
-        #cards a:hover{
-            background-color: #20427f;
-        }
-    
-#card1{
-    width: 19%;
-    height: 180px;
-    border: 2px solid #90acdb;
-    margin: 50px 7% 0 7%;
-    float: left;
-}
-
-#card2{
-    width: 20%;
-    height: 180px;
-    border: 2px solid #90acdb;
-    float: left;
-    margin: 50px 7% 0 7%;
-}
-
-#card3{
-    width: 19%;
-    height: 180px;
-    border: 2px solid #90acdb;
-    margin: 50px 7% 0 0;
-    float: right;
-}
-
-#ranking p{
-    font-family: 'Calibri', 'Courier New', Courier, monospace;
-    color:#000;
-    font-size: 120%;
-    margin: 0 7% 20px 7%;
-    text-align: justify;
-}
-
-#ranking a{
-    color:#000;
-    text-decoration: none;
-}
-
-    #ranking a:hover{
+    #ranking a{
         color:#000;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
-#ranking h1{
-    font-family: 'Calibri', 'Courier New', Courier, monospace;
-    color:#000;
-    margin:20px 0 20px 0px;
-}
+        #ranking a:hover{
+            color:#000;
+            text-decoration: underline;
+        }
 
-#sobre p{
-    font-family: 'Calibri', 'Courier New', Courier, monospace;
-    color:#000;
-    font-size: 120%;
-    margin: 0 0 20px 0;
-    text-align: justify;
-    margin: 0 7% 0 7%;
-    padding: 10px 0 10px 0;
-}
-
-    #sobre h1{
+    #ranking h1{
         font-family: 'Calibri', 'Courier New', Courier, monospace;
         color:#000;
         margin:20px 0 20px 0px;
     }
 
-footer{
-    background-color: #d9d9d9;
-    width: 100%;
-    height: 150px;
-    padding-top: 2%;
-}
-
-#info{
-    width: 50%;
-    float: left;
-}
-
-    #info p{
+    #sobre p{
         font-family: 'Calibri', 'Courier New', Courier, monospace;
         color:#000;
+        font-size: 120%;
+        margin: 0 0 20px 0;
         text-align: justify;
-        margin-left: 14%;
-        width: 50%;
+        margin: 0 7% 0 7%;
+        padding: 10px 0 10px 0;
     }
 
-    #info a{
-        color:#000;
-        text-decoration: none;
-    }
-#links{
-    width: 50%;
-    float: right;
-}
+        #sobre h1{
+            font-family: 'Calibri', 'Courier New', Courier, monospace;
+            color:#000;
+            margin:20px 0 20px 0px;
+        }
 
-    #links p{
-        font-family: 'Calibri', 'Courier New', Courier, monospace;
-        color:#000;
-        text-align: justify;
-        margin-right: 14%;
-        float: right;
-    }
-
-    #links a{
-        float: right;
-        margin-right: 14%;
-        background-color: #000;
-        color: #fff;
-        text-decoration: none;
-    }
-
-    #links a:hover{
+    footer{
         background-color: #d9d9d9;
-        color: #000;
+        width: 100%;
+        height: 150px;
+        padding-top: 2%;
+    }
+
+    #info{
+        width: 50%;
+        float: left;
+    }
+
+        #info p{
+            font-family: 'Calibri', 'Courier New', Courier, monospace;
+            color:#000;
+            text-align: justify;
+            margin-left: 14%;
+            width: 50%;
+        }
+
+        #info a{
+            color:#000;
+            text-decoration: none;
+        }
+    #links{
+        width: 50%;
+        float: right;
+    }
+
+        #links p{
+            font-family: 'Calibri', 'Courier New', Courier, monospace;
+            color:#000;
+            text-align: justify;
+            margin-right: 14%;
+            float: right;
+        }
+
+        #links a{
+            float: right;
+            margin-right: 14%;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #links a:hover{
+            background-color: #d9d9d9;
+            color: #000;
+            text-decoration: none;
+        }
+
+    /*formulário*/
+
+    #formulario{
+        margin: 0 0 100px 0;
+    }
+
+    #formulario form,input,select,textarea{color:#171717; font:100% normal Arial, Helvetica, sans-serif;}
+
+    #formulario div.box {
+        margin:0 auto;
+        width:500px;
+        background:#124386;
+        position:relative;
+        top:50px;
+        border:1px solid #124386;
+    }
+
+    #formulario div.box h1 {
+        color:#ffffff;
+        font-size:18px;
+        text-transform:uppercase;
+        padding:5px 0 5px 5px;
+        border-bottom:1px solid #ffffff;
+        border-top:1px solid #ffffff;
+    }
+
+    #formulario div.box label {
+        width:100%;
+        display: block;
+        background:#124386;
+        border-top:1px solid #ffffff;
+        border-bottom:1px solid #ffffff;
+        padding:10px 0 10px 0;
+    }
+
+    #formulario div.box label span {
+        display: block;
+        color:#ffffff;
+        font-size:12px;
+        float:left;
+        width:100px;
+        text-align:right;
+        padding:5px 20px 0 0;
+    }
+
+    #formulario div.box .input_text {
+        padding:10px 10px;
+        width:350px;
+        background:#ffffff;
+        border-bottom: 1px double #171717;
+        border-top: 1px double #171717;
+        border-left:1px double #333333;
+        border-right:1px double #333333;
+    }
+
+    #formulario div.box .message{
+        padding:7px 7px;
+        width:350px;
+        background:#ffffff;
+        border-bottom: 1px double #124386;
+        border-top: 1px double #124386;
+        border-left:1px double #124386;
+        border-right:1px double #124386;
+        overflow:hidden;
+        height:120px;
+    }
+
+    #formulario div.box .button{
+        margin:0 0 10px 0;
+        padding:4px 7px;
+        color:#fff;
+        border:0px;
+        position: relative;
+        top:20px;
+        left:30px;
+        width:150px;
+        background-color: #4373c5;
+        border-radius: 7px;
+    }
+
+    #formulario div.box .button:hover{
+        background-color: #20427f;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 50px) and (max-width: 1150px)  {
+    #topo{
+        width: 100%;
+        height: 230px;
+        border-bottom: 5px solid #23498a;
+        background-color: #d9d9d9;
+    }
+    #logo{
+        width: 100%;
+        height: 150px;
+        text-align: center;
+    }
+
+    .menu{display: none;}
+
+    #menu-sanfona{
+        height:57px;
+        width:100%;
+        position:absolute;
+        border-top:	3px solid #ccc;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    
+        #menu-sanfona ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 102px;
+            
+        }
+        
+        #menu-sanfona ul li {
+            position: relative;
+        }
+        
+        #menu-sanfona li ul {
+            position: absolute;
+            left: 99px;
+            width:250px;
+            padding:0px;
+            top: 0;
+            display: none;
+            z-index:999;
+        }
+        
+        #menu-sanfona li:hover ul { display: block; }
+        
+        
+        #menu-sanfona ul li a {
+            display: block;
+            text-decoration: none;
+            background: #d9d9d9;
+            border-bottom: 0;
+            text-decoration:none;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:20px;
+            font-weight:bolder;
+            color:#23498a;		
+        }
+        #teste{ padding:5px;
+            border:1px solid #23498a;
+        }
+        #menu-sanfona ul li a:hover{
+            background-color:#CCC;
+        }
+    #bemvindo{
+        width: 100%;
+        height: 470px;
+        background-image: url(bg.jpg);
+    }
+    
+    #esquerda{
+        width: 100%;
+        height: 260px;
+    }
+    
+        #esquerda p{
+            font-family:Arial, Helvetica, sans-serif;
+            color:#fff;
+            text-align: center;
+            font-size: 16px;
+            padding: 10px;
+        }
+    
+    #direita{
+        width: 100%;
+        height: 210px;
+    }
+        #direita img{
+            text-align: center;
+            margin: 0px auto;
+            width: 350px;
+        }
+    
+    #cards{
+        width: 100%;
+        height: 625px;
+        text-align: center;
+        margin: 0px auto;
+        padding: 10px 0 10px 0;
+    }
+    
+        #cards p{
+            font-family:Arial, Helvetica, sans-serif;
+            color:#000;
+            font-size: 16px;
+            text-align: center;
+            font-weight: bold;
+            margin: 10px 0 50px 0;
+        }
+    
+        #cards a{
+            font-family:Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: #fff;
+            background-color: #4373c5;
+            border-radius: 7px;
+            padding: 5px 10px 5px 10px;
+            font-size: 16px;
+        }
+    
+            #cards a:hover{
+                background-color: #20427f;
+            }
+        
+    #card1{
+        width: 70%;
+        height: 200px;
+        border: 2px solid #90acdb;
+        margin:0px auto;
+    }
+    
+    #card2{
+        width: 70%;
+        height: 200px;
+        border: 2px solid #90acdb;
+        margin:0px auto;
+    }
+    
+    #card3{
+        width: 70%;
+        height: 200px;
+        border: 2px solid #90acdb;
+        margin:0px auto;
+    }
+
+    #ranking p{
+        font-family:Arial, Helvetica, sans-serif;
+        color:#000;
+        font-size: 16px;
+        margin: 0 7% 20px 7%;
+        text-align: justify;
+    }
+
+    #ranking a{
+        color:#000;
         text-decoration: none;
     }
 
-/*formulário*/
+        #ranking a:hover{
+            color:#000;
+            text-decoration: underline;
+        }
 
-#formulario{
-    margin: 0 0 100px 0;
+    #ranking h1{
+        font-family:Arial, Helvetica, sans-serif;
+        color:#000;
+        margin:20px 0 20px 0px;
+    }
+
+    #sobre p{
+        font-family:Arial, Helvetica, sans-serif;
+        color:#000;
+        font-size: 16px;
+        margin: 0 0 20px 0;
+        text-align: justify;
+        margin: 0 7% 0 7%;
+        padding: 10px 0 10px 0;
+    }
+
+        #sobre h1{
+            font-family:Arial, Helvetica, sans-serif;
+            color:#000;
+            margin:20px 0 20px 0px;
+        }
+
+    footer{
+        background-color: #d9d9d9;
+        width: 100%;
+        height: 250px;
+        padding-top: 2%;
+    }
+
+    #info{
+        width: 100%;
+        float: left;
+        margin:0 0 30px 0;
+    }
+
+        #info p{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color:#000;
+            width: 100%;
+        }
+
+        #info a{
+            color:#000;
+            text-decoration: none;
+        }
+    
+    #links{
+        width:100%;
+    }
+
+        #links p{
+            font-family:Arial, Helvetica, sans-serif;
+            color:#000;
+        }
+
+        #links a{
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        #links a:hover{
+            background-color: #d9d9d9;
+            color: #000;
+            text-decoration: none;
+        }
+
+    /*formulário*/
+
+    #formulario{
+        margin: 0 0 100px 0;
+    }
+
+    #formulario form,input,select,textarea{color:#171717; font:100% normal Arial, Helvetica, sans-serif;}
+
+    #formulario div.box {
+        margin:0 auto;
+        width:300px;
+        background:#124386;
+        position:relative;
+        top:50px;
+        border:1px solid #124386;
+    }
+
+    #formulario div.box h1 {
+        color:#ffffff;
+        font-size:18px;
+        text-transform:uppercase;
+        padding:5px 0 5px 5px;
+        border-bottom:1px solid #ffffff;
+        border-top:1px solid #ffffff;
+    }
+
+    #formulario div.box label {
+        width:100%;
+        display: block;
+        background:#124386;
+        border-top:1px solid #ffffff;
+        border-bottom:1px solid #ffffff;
+        padding:10px 0 10px 0;
+    }
+
+    #formulario div.box label span {
+        display: block;
+        color:#ffffff;
+        font-size:12px;
+        width:300px;
+        padding:5px 20px 0 0;
+    }
+
+    #formulario div.box .input_text {
+        padding:10px 10px;
+        width:200px;
+        background:#ffffff;
+        border-bottom: 1px double #171717;
+        border-top: 1px double #171717;
+        border-left:1px double #333333;
+        border-right:1px double #333333;
+    }
+
+    #formulario div.box .message{
+        padding:7px 7px;
+        width:200px;
+        background:#ffffff;
+        border-bottom: 1px double #124386;
+        border-top: 1px double #124386;
+        border-left:1px double #124386;
+        border-right:1px double #124386;
+        overflow:hidden;
+        height:120px;
+    }
+
+    #formulario div.box .button{
+        margin:0 0 10px 0;
+        padding:4px 7px;
+        color:#fff;
+        border:0px;
+        position: relative;
+        top:20px;
+        width:150px;
+        background-color: #4373c5;
+        border-radius: 7px;
+    }
+
+    #formulario div.box .button:hover{
+        background-color: #20427f;
+    }
 }
 
-#formulario form,input,select,textarea{color:#171717; font:100% normal Arial, Helvetica, sans-serif;}
-
-#formulario div.box {
-    margin:0 auto;
-    width:500px;
-    background:#124386;
-    position:relative;
-    top:50px;
-    border:1px solid #124386;
-}
-
-#formulario div.box h1 {
-    color:#ffffff;
-    font-size:18px;
-    text-transform:uppercase;
-    padding:5px 0 5px 5px;
-    border-bottom:1px solid #ffffff;
-    border-top:1px solid #ffffff;
-}
-
-#formulario div.box label {
-    width:100%;
-    display: block;
-    background:#124386;
-    border-top:1px solid #ffffff;
-    border-bottom:1px solid #ffffff;
-    padding:10px 0 10px 0;
-}
-
-#formulario div.box label span {
-    display: block;
-    color:#ffffff;
-    font-size:12px;
-    float:left;
-    width:100px;
-    text-align:right;
-    padding:5px 20px 0 0;
-}
-
-#formulario div.box .input_text {
-    padding:10px 10px;
-    width:350px;
-    background:#ffffff;
-    border-bottom: 1px double #171717;
-    border-top: 1px double #171717;
-    border-left:1px double #333333;
-    border-right:1px double #333333;
-}
-
-#formulario div.box .message{
-    padding:7px 7px;
-    width:350px;
-    background:#ffffff;
-    border-bottom: 1px double #124386;
-    border-top: 1px double #124386;
-    border-left:1px double #124386;
-    border-right:1px double #124386;
-    overflow:hidden;
-    height:120px;
-}
-
-#formulario div.box .button{
-    margin:0 0 10px 0;
-    padding:4px 7px;
-    color:#fff;
-    border:0px;
-    position: relative;
-    top:20px;
-    left:30px;
-    width:150px;
-    background-color: #4373c5;
-    border-radius: 7px;
-}
-
-#formulario div.box .button:hover{
-    background-color: #20427f;
-}

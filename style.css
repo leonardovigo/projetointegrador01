@@ -81,10 +81,19 @@ body{
         #esquerda p{
             font-family: 'Calibri', 'Courier New', Courier, monospace;
             color:#fff;
+            font-size: 18px;
             text-align: justify;
             margin-left: 14%;
             margin-top: 2%;
             width: 60%;
+        }
+
+        #esquerda h1{
+            font-family: 'Calibri', 'Courier New', Courier, monospace;
+            color:#fff;
+            text-align: justify;
+            margin-left: 14%;
+            margin-top: 2%;
         }
     
     #direita{
@@ -98,6 +107,30 @@ body{
             margin-top: 30px;
             float: right;
         }
+    
+    #esquerdarelatorio{
+        width: 50%;
+        float: left;
+    }
+        #esquerdarelatorio p{
+            font-family: 'Calibri', 'Courier New', Courier, monospace;
+            color:#000;
+            font-size: 120%;
+            text-align: justify;
+            margin-left: 14%;
+            margin-top: 2%;
+        }
+
+    #grafico{
+        width: 50%;
+        float: right;
+        margin: 0px auto;
+    }
+        #grafico img{
+            margin:0 14% 30px 0;
+            width: 80%;
+        }
+    
     
     #cards{
         width: 100%;
@@ -151,6 +184,7 @@ body{
         float: right;
     }
 
+
     #ranking p{
         font-family: 'Calibri', 'Courier New', Courier, monospace;
         color:#000;
@@ -196,6 +230,7 @@ body{
         width: 100%;
         height: 150px;
         padding-top: 2%;
+        clear: both;
     }
 
     #info{
@@ -415,6 +450,11 @@ body{
             font-size: 16px;
             padding: 10px;
         }
+
+        #esquerda h1{
+            font-family: 'Calibri', 'Courier New', Courier, monospace;
+            color:#fff;
+        }
     
     #direita{
         width: 100%;
@@ -425,6 +465,20 @@ body{
             margin: 0px auto;
             width: 350px;
         }
+
+    #grafico img{
+        margin:0px auto;
+        width: 80%;
+    }
+
+    #esquerdarelatorio p{
+        font-family:Arial, Helvetica, sans-serif;
+        color:#000;
+        text-align: justify;
+        font-size: 16px;
+        margin: 0 7% 20px 7%;
+
+    }
     
     #cards{
         width: 100%;
